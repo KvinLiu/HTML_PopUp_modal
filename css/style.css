@@ -16,7 +16,7 @@ body {
 }
 
 .modal {
-    /* display: none; */
+    display: none;
     position: fixed;
     z-index: 1;
     left: 0;
@@ -25,6 +25,7 @@ body {
     width: 100%;
     overflow: auto;
     background-color: rgba(0,0,0,0.5);
+    transition: all 0.5s ease-in-out;
 }
 
 .modal-content {
@@ -47,3 +48,4 @@ body {
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
+
